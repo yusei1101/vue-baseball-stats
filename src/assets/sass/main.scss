@@ -1,0 +1,335 @@
+@charset "utf-8";
+@import "_mixin";
+
+//header
+.header-logo{
+    h1{
+        padding-left: 50px;
+        @include mq(md){
+            padding-left: 20px;
+        }
+        a{
+            font-size: $fontSize-title;
+            color: $color-white;
+            line-height: 60px;
+        }
+    }
+}
+
+.li-home{
+    font-size: $fontSize-subtitle;
+    color: $color-white
+}
+.header{
+    @include mq(md){
+        display: none;
+    }
+    height: 50px;
+    background: $color-blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    &-nav{
+        ul{
+            display: flex;
+            justify-content: space-around;
+            li{
+                font-size: $fontSize-subtitle;
+                margin-right: 30px;
+                color: $color-white;
+                a{
+                    font-size: $fontSize-subtitle;
+                    color: $color-white;
+                }
+            }
+            .toggle{
+                &-enter, &-leave-to{
+                    opacity: 0;
+                }
+                &-enter-to, &-leave{
+                    opacity: 1;
+                }
+                &-enter-active, &-leave-active{
+                    transition: .6s;
+                }
+                div{
+                    position: absolute;
+                    text-align: center;
+                    z-index: 100;
+                    padding: 10px 0 0 30px;
+                    transition: 0.3s ease-in-out;
+                }
+                a{
+                    padding: 10px;
+                    display: block;
+                    color: $color-accent !important;
+                    background: $color-gray;
+                }
+            }
+        }
+    }
+}
+.sm-header{
+    @include mq(sm){
+        display: none;
+    }
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: $color-blue;
+    &-menu{
+        width: 60px;
+        height: 60px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        &-line{
+            width: 36px;
+            height: 30px;
+            margin-top: 15px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            cursor: pointer;
+            span{
+                width: 100%;
+                height: 4px;
+                background: $color-white;
+                display: block;
+                transition: .6s;
+                position: absolute;
+                &:first-child{
+                    top: 0;
+                }
+                &:nth-child(2){
+                    top: 13px;
+                }
+                &:last-child{
+                    bottom: 0
+                }
+            }
+            &.is-active{
+                span{
+                    transition: .6s;
+                    &:first-child{
+                        transform: rotate(45deg);
+                        top: 50%;
+                    }
+                    &:nth-child(2){
+                        opacity: 0;
+                    }
+                    &:last-child{
+                        transform: rotate(-45deg);
+                        top: 50%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sm-navi{
+    @include mq(sm){
+        display: none;
+    }
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: $color-white;
+    ul{
+        list-style-type: none;
+        text-align: center;
+        padding-left: 0;
+        background: $color-gray;
+        padding: 60px 0;
+        width: 100%;
+        li{
+            color: $color-text;
+            padding-bottom: 20px;
+            font-size: $fontSize-subtitle;
+            &:nth-child(2){
+                color: green;
+                padding-top: 20px;
+            }
+            &:nth-child(5){
+                color: blue;
+                padding-top: 20px;
+            }
+            &:nth-child(8){
+                color: red;
+                padding-top: 20px;
+            }
+            a{
+                color: $color-text;
+                font-size: $fontSize-subtitle;
+                text-decoration: none;
+                display: block;
+                padding: 10px 100px;
+            }
+        }
+    }
+    &-enter, &-leave-to{
+        opacity: 0;
+    }
+    &-enter-to, &-leave{
+        opacity: 1;
+    }
+    &-enter-active, &-leave-active{
+        transition: .6s;
+    }
+}
+
+
+
+//Home
+.league-wrap{
+    padding: 20px 0px 100px;
+    display: flex;
+    justify-content: center;
+    ul{
+        &:first-child{
+            margin-right: 3%;
+            @include mq(sm){
+                margin-right: 10%;
+            }
+        }
+        &:last-child{
+            margin-left: 3%;
+            @include mq(sm){
+                margin-left: 10%;
+            }
+        }
+        li{
+            font-size: 3rem;
+            text-align: center;
+            padding-top: 20px;
+            @include mq(sm){
+                font-size: 4rem;
+            }
+            .router-a{
+                font-size: 2.4rem;;
+            }
+        }
+    }
+    .central-wrap{
+        li{
+            &:first-child{
+                color: green;
+            }
+        }
+    }
+    .pacific-wrap{
+        li{
+            &:first-child{
+                color: blue;
+            }
+        }
+    }
+}
+
+//Page1,2,3,4
+.table-page{
+    color: $color-text;
+    width: 95%;
+    margin: 0 auto;
+    text-align: right;
+    padding-top: 20px;
+    @include mq(sm){
+        width: 70%;
+    }
+    tr{
+        &:nth-child(even) td{
+            background: $color-gray;
+        }
+        th{
+            font-size: $fontSize-main;
+            padding: 10px 5px;
+            @include mq(sm){
+            font-size: $fontSize-subtitle;
+            padding: 20px 10px;
+            }
+            &:nth-child(2){
+                text-align: center;
+            }
+        }
+        td{
+            font-size: $fontSize-main;
+            padding: 20px 10px;
+            a{
+                font-size: $fontSize-main;
+                color: $color-text;
+            }
+            &:nth-child(2){
+                @include mq(sm){
+                    width: 200px;
+                }
+            }
+        }
+    }
+}
+
+
+//pitcher, batter
+.player-radar{
+    text-align: center;
+    padding: 30px 0;
+    .player{
+        padding-bottom: 30px;
+    }
+    @include mq(sm){
+      display: flex;
+      justify-content: space-around;
+      padding-top: 30px;
+    }  
+  }
+  .table-detail{
+    width: 98%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    tr{
+        th{
+            border: solid 1px $color-text;
+            padding: 6px;
+            background: $color-gray;
+            span{
+            writing-mode: tb;
+            writing-mode: vertical-lr;
+            letter-spacing: .2em;
+            }
+        }
+        td{
+            text-align: center;
+            border: solid 1px #222;
+            padding: 5px;
+        }
+    }
+}
+.scroll{
+    overflow: auto;
+    white-space: nowrap;
+    &::-webkit-scrollbar{
+        height: 10px;
+    }
+    &::-webkit-scrollbar-thumb{
+    background: #BCBCBC;
+    }
+}
+
+
+//PitcherVocabulary, BatterVocabulary
+.vocabulary{
+    padding-top: 30px;
+    text-align: center;
+    &-wrap{
+        padding-bottom: 20px;
+    }
+    &-title{
+        font-size: 1.8rem;
+        padding-bottom: 5px;
+    }
+    &-text{
+        font-size: 1.2rem;
+    }
+}
