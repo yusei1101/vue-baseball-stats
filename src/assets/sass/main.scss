@@ -258,11 +258,15 @@
             font-size: $fontSize-main;
             padding: 20px 10px;
             a{
-                font-size: $fontSize-main;
+                font-size: 1.3rem;
                 color: $color-text;
             }
             &:nth-child(2){
+                text-align: center;
+                padding: 5px 0;
                 @include mq(sm){
+                    padding: 20px 10px;
+                    font-size: 2.4rem;
                     width: 200px;
                 }
             }

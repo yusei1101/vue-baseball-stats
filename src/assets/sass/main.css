@@ -349,12 +349,19 @@ h1, h2 {
 }
 
 .table-page tr td a {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   color: #222222;
+}
+
+.table-page tr td:nth-child(2) {
+  text-align: center;
+  padding: 5px 0;
 }
 
 @media screen and (min-width: 576px) {
   .table-page tr td:nth-child(2) {
+    padding: 20px 10px;
+    font-size: 2.4rem;
     width: 200px;
   }
 }
