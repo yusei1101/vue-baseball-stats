@@ -10,7 +10,7 @@
             </tr>
             <tr v-for="post in posts" :key="post.rank">
                 <td>{{post.rank}}</td>
-                <td><a :href="post.path">{{post.name}}</a></td>
+                <td><router-link :to="post.path">{{post.name}}</router-link></td>
                 <td>{{post.prevent}}</td>
                 <td>{{post.victory}}</td>
                 <td>{{post.defeat}}</td>

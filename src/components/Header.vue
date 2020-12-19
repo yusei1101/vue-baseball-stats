@@ -22,14 +22,14 @@
                 <ul>
                     <li><a href="/">ホーム</a></li>
                     <li>セ・リーグ</li>
-                    <li><a href="/page1">投手</a></li>
-                    <li><a href="/page3">野手</a></li>
+                    <li><a href="./Page1">投手</a></li>
+                    <li><a href="./Page3">野手</a></li>
                     <li>パ・リーグ</li>
-                    <li><a href="/page2">投手</a></li>
-                    <li><a href="/page4">野手</a></li>
+                    <li><a href="./Page2">投手</a></li>
+                    <li><a href="./Page4">野手</a></li>
                     <li>用語解説</li>
-                    <li><a href="/PitcherVocabulary">投手</a></li>
-                    <li><a href="/BatterVocabulary">野手</a></li>
+                    <li><a href="./PitcherVocabulary">投手</a></li>
+                    <li><a href="./BatterVocabulary">野手</a></li>
                 </ul>
             </div>
             </transition>
@@ -40,14 +40,14 @@
           </div>
           <div class="header-nav">
             <ul>
-                <li><a href="/" class="li-home">ホーム</a></li>
+                <li><router-link to="/" class="li-home">ホーム</router-link></li>
                 <li class="toggle" style="cursor: pointer;" @click="toggleCentral">セ・リーグ
                     <font-awesome-icon icon="chevron-up" v-if="isOpenCentral"></font-awesome-icon>
                     <font-awesome-icon icon="chevron-down" v-if="!isOpenCentral"></font-awesome-icon>
                     <transition name="toggle">
                         <div v-if="isOpenCentral">
-                            <a href="/page1">投手</a>
-                            <a href="/page3">野手</a>
+                            <a href="./Page1">投手</a>
+                            <a href="./Page3">野手</a>
                         </div>
                     </transition>
                 </li>
@@ -56,8 +56,8 @@
                     <font-awesome-icon icon="chevron-down" v-if="!isOpenPacific"></font-awesome-icon>
                     <transition name="toggle">
                         <div v-if="isOpenPacific">
-                            <a href="/page2">投手</a>
-                            <a href="/page4">野手</a>
+                            <a href="./Page2">投手</a>
+                            <a href="./Page4">野手</a>
                         </div>
                     </transition>
                 </li>
@@ -66,8 +66,8 @@
                     <font-awesome-icon icon="chevron-down" v-if="!isOpenVocabulary"></font-awesome-icon>
                     <transition name="toggle">
                         <div v-if="isOpenVocabulary">
-                            <a href="/PitcherVocabulary">投手</a>
-                            <a href="/BatterVocabulary">野手</a>
+                            <a href="./PitcherVocabulary">投手</a>
+                            <a href="./BatterVocabulary">野手</a>
                         </div>
                     </transition>
                 </li>
