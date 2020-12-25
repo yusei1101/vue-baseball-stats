@@ -2,7 +2,7 @@
     {
       "rank": 1,
       "name": "吉田　正尚（オ）",
-      "path": "/page4/batter28",
+      "path": "/batter28",
       "img": "../img/yoshida.jpg",
       "average": ".350",
       "homerun": 14,
@@ -46,7 +46,7 @@
     {
       "rank": 2,
       "name": "柳田　悠岐（ソ）",
-      "path": "/page4/batter29",
+      "path": "/batter29",
       "img": "../img/yanagita.jpg",
       "average": ".342",
       "homerun": 29,
@@ -90,7 +90,7 @@
     {
       "rank": 3,
       "name": "近藤　健介（日）",
-      "path": "/page4/batter30",
+      "path": "/batter30",
       "img": "../img/kondoh.jpg",
       "average": ".340",
       "homerun": 5,
@@ -134,7 +134,7 @@
     {
       "rank": 4,
       "name": "西川　遥輝（日）",
-      "path": "/page4/batter31",
+      "path": "/batter31",
       "img": "../img/nishikawa.jpg",
       "average": ".306",
       "homerun": 5,
@@ -178,7 +178,7 @@
     {
       "rank": 5,
       "name": "鈴木　大地（楽）",
-      "path": "/page4/batter32",
+      "path": "/batter32",
       "img": "../img/suzukidaiti.jpg",
       "average": ".295",
       "homerun": 4,
@@ -222,7 +222,7 @@
     {
       "rank": 6,
       "name": "小深田　大翔（楽）",
-      "path": "/page4/batter33",
+      "path": "/batter33",
       "img": "../img/kobukata.jpg",
       "average": ".288",
       "homerun": 3,
@@ -266,7 +266,7 @@
     {
       "rank": 7,
       "name": "渡邉　諒（日）",
-      "path": "/page4/batter34",
+      "path": "/batter34",
       "img": "../img/watanabe.jpg",
       "average": ".283",
       "homerun": 6,
@@ -310,7 +310,7 @@
     {
       "rank": 8,
       "name": "島内　宏明（楽）",
-      "path": "/page4/batter35",
+      "path": "/batter35",
       "img": "../img/shimauchi.jpg",
       "average": ".281",
       "homerun": 8,
@@ -354,7 +354,7 @@
     {
       "rank": 9,
       "name": "浅村　栄斗（楽）",
-      "path": "/page4/batter36",
+      "path": "/batter36",
       "img": "../img/asamura.jpg",
       "average": ".280",
       "homerun": 32,
@@ -398,7 +398,7 @@
     {
       "rank": 10,
       "name": "大田　泰示（日）",
-      "path": "/page4/batter37",
+      "path": "/batter37",
       "img": "../img/oota.jpg",
       "average": ".275",
       "homerun": 14,
@@ -442,7 +442,7 @@
     {
       "rank": 11,
       "name": "ロメロ（楽）",    
-      "path": "/page4/batter38",
+      "path": "/batter38",
       "img": "../img/romero.jpg",
       "average": ".272",
       "homerun": 24,
@@ -486,7 +486,7 @@
     {
       "rank": 12,
       "name": "栗山　巧（西）",
-      "path": "/page4/batter39",
+      "path": "/batter39",
       "img": "../img/kuriyama.jpg",
       "average": ".272",
       "homerun": 12,
@@ -530,7 +530,7 @@
     {
       "rank": 13,
       "name": "中村　晃（ソ）",
-      "path": "/page4/batter40",
+      "path": "/batter40",
       "img": "../img/nakamura.jpg",
       "average": ".271",
       "homerun": 6,
@@ -574,7 +574,7 @@
     {
       "rank": 14,
       "name": "源田　壮亮（西）",
-      "path": "/page4/batter41",
+      "path": "/batter41",
       "img": "../img/genda.jpg",
       "average": ".270",
       "homerun": 1,
@@ -618,7 +618,7 @@
     {
       "rank": 15,
       "name": "スパンジェンバーグ（西）",
-      "path": "/page4/batter42",
+      "path": "/batter42",
       "img": "../img/spnagenberg.jpg",
       "average": ".268",
       "homerun": 15,
@@ -662,7 +662,7 @@
     {
       "rank": 16,
       "name": "Tー岡田（オ）",
-      "path": "/page4/batter43",
+      "path": "/batter43",
       "img": "../img/t-okada.jpg",
       "average": ".256",
       "homerun": 16,
@@ -706,7 +706,7 @@
     {
       "rank": 17,
       "name": "森　友哉（西）",
-      "path": "/page4/batter44",
+      "path": "/batter44",
       "img": "../img/mori.jpg",
       "average": ".251",
       "homerun": 9,
@@ -750,7 +750,7 @@
     {
       "rank": 18,
       "name": "中村　奨吾（ロ）",
-      "path": "/page4/batter45",
+      "path": "/batter45",
       "img": "../img/nakamurashogo.jpg",
       "average": ".249",
       "homerun": 8,
@@ -794,7 +794,7 @@
     {
       "rank": 19,
       "name": "外崎　修汰（西）",
-      "path": "/page4/batter46",
+      "path": "/batter46",
       "img": "../img/tonosaki.jpg",
       "average": ".247",
       "homerun": 8,
@@ -838,7 +838,7 @@
     {
       "rank": 20,
       "name": "井上　晴哉（ロ）",
-      "path": "/page4/batter47",
+      "path": "/batter47",
       "img": "../img/inoue.jpg",
       "average": ".245",
       "homerun": 15,
@@ -882,7 +882,7 @@
     {
       "rank": 21,
       "name": "栗原　陵矢（ソ）",
-      "path": "/page4/batter48",
+      "path": "/batter48",
       "img": "../img/kurihara.jpg",
       "average": ".243",
       "homerun": 17,
@@ -926,7 +926,7 @@
     {
       "rank": 22,
       "name": "中田　翔（日）",
-      "path": "/page4/batter49",
+      "path": "/batter49",
       "img": "../img/nakata.jpg",
       "average": ".239",
       "homerun": 31,
@@ -970,7 +970,7 @@
     {
       "rank": 23,
       "name": "マーティン（ロ）",
-      "path": "/page4/batter50",
+      "path": "/batter50",
       "img": "../img/martin.jpg",
       "average": ".234",
       "homerun": 25,
@@ -1014,7 +1014,7 @@
     {
       "rank": 24,
       "name": "松田　宣浩（ソ）",
-      "path": "/page4/batter51",
+      "path": "/batter51",
       "img": "../img/matuda.jpg",
       "average": ".228",
       "homerun": 13,
@@ -1058,7 +1058,7 @@
     {
       "rank": 25,
       "name": "安田　尚憲（ロ）",
-      "path": "/page4/batter52",
+      "path": "/batter52",
       "img": "../img/yasuda.jpg",
       "average": ".221",
       "homerun": 6,
@@ -1102,7 +1102,7 @@
     {
       "rank": 26,
       "name": "山川　穂高（西）",
-      "path": "/page4/batter53",
+      "path": "/batter53",
       "img": "../img/yamakawa.jpg",
       "average": ".205",
       "homerun": 24,

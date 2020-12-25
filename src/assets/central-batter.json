@@ -2,7 +2,7 @@
     {
       "rank": 1,
       "name": "佐野　恵太（De）",
-      "path": "/page3/batter1",
+      "path": "/batter1",
       "img": "../img/sano.jpg",
       "average": ".328",
       "homerun": 11,
@@ -46,7 +46,7 @@
     {
       "rank": 2,
       "name": "梶谷　隆幸（De）",
-      "path": "/page3/batter2",
+      "path": "/batter2",
       "img": "../img/kajitani.jpg",
       "average": ".323",
       "homerun": 19,
@@ -90,7 +90,7 @@
     {
       "rank": 3,
       "name": "青木　宣親（ヤ）",
-      "path": "/page3/batter3",
+      "path": "/batter3",
       "img": "../img/aoki.jpg",
       "average": ".317",
       "homerun": 18,
@@ -134,7 +134,7 @@
     {
       "rank": 4,
       "name": "大島　洋平（中）",
-      "path": "/page3/batter4",
+      "path": "/batter4",
       "img": "../img/oshima.jpg",
       "average": ".316",
       "homerun": 1,
@@ -178,7 +178,7 @@
     {
       "rank": 5,
       "name": "村上　宗隆（ヤ）",
-      "path": "/page3/batter5",
+      "path": "/batter5",
       "img": "../img/murakami.jpg",
       "average": ".307",
       "homerun": 28,
@@ -223,7 +223,7 @@
     {
       "rank": 6,
       "name": "高橋　周平（中）",
-      "path": "/page3/batter6",
+      "path": "/batter6",
       "img": "../img/takahashi.jpg",
       "average": ".305",
       "homerun": 7,
@@ -267,7 +267,7 @@
     {
       "rank": 7,
       "name": "宮崎　敏郎（De）",
-      "path": "/page3/batter7",
+      "path": "/batter7",
       "img": "../img/miyazaki.jpg",
       "average": ".301",
       "homerun": 14,
@@ -311,7 +311,7 @@
     {
       "rank": 8,
       "name": "鈴木　誠也（広）",
-      "path": "/page3/batter8",
+      "path": "/batter8",
       "img": "../img/suzuki.jpg",
       "average": ".300",
       "homerun": 25,
@@ -356,7 +356,7 @@
     {
       "rank": 9,
       "name": "近本　光司（神）",
-      "path": "/page3/batter9",
+      "path": "/batter9",
       "img": "../img/tikamoto.jpg",
       "average": ".293",
       "homerun": 9,
@@ -400,7 +400,7 @@
     {
       "rank": 10,
       "name": "坂本　勇人（巨）",
-      "path": "/page3/batter10",
+      "path": "/batter10",
       "img": "../img/sakamoto.jpg",
       "average": ".289",
       "homerun": 19,
@@ -444,7 +444,7 @@
     {
       "rank": 11,
       "name": "大山　悠輔（神）",
-      "path": "/page3/batter11",
+      "path": "/batter11",
       "img": "../img/ooyama.jpg",
       "average": ".288",
       "homerun": 28,
@@ -488,7 +488,7 @@
     {
       "rank": 12,
       "name": "丸　佳浩（巨）",
-      "path": "/page3/batter12",
+      "path": "/batter12",
       "img": "../img/maru.jpg",
       "average": ".284",
       "homerun": 27,
@@ -533,7 +533,7 @@
     {
       "rank": 13,
       "name": "堂林　翔太（広）",
-      "path": "/page3/batter13",
+      "path": "/batter13",
       "img": "../img/dobayashi.jpg",
       "average": ".279",
       "homerun": 14,
@@ -577,7 +577,7 @@
     {
       "rank": 14,
       "name": "松山　竜平（広）",
-      "path": "/page3/batter14",
+      "path": "/batter14",
       "img": "../img/matsuyama.jpg",
       "average": ".277",
       "homerun": 9,
@@ -622,7 +622,7 @@
     {
       "rank": 15,
       "name": "岡本　和真（巨）",
-      "path": "/page3/batter15",
+      "path": "/batter15",
       "img": "../img/okamoto.jpg",
       "average": ".275",
       "homerun": 31,
@@ -666,7 +666,7 @@
     {
       "rank": 16,
       "name": "吉川　尚輝（巨）",
-      "path": "/page3/batter16",
+      "path": "/batter16",
       "img": "../img/yoshikawa.jpg",
       "average": ".274",
       "homerun": 8,
@@ -710,7 +710,7 @@
     {
       "rank": 17,
       "name": "エスコバー（ヤ）",
-      "path": "/page3/batter17",
+      "path": "/batter17",
       "img": "../img/escobar.jpg.jpg",
       "average": ".273",
       "homerun": 1,
@@ -754,7 +754,7 @@
     {
       "rank": 18,
       "name": "菊池　涼介（広）",
-      "path": "/page3/batter18",
+      "path": "/batter18",
       "img": "../img/kikuchi.jpg",
       "average": ".271",
       "homerun": 10,
@@ -798,7 +798,7 @@
     {
       "rank": 19,
       "name": "ビシエド（中）",
-      "path": "/page3/batter19",
+      "path": "/batter19",
       "img": "../img/viciedo.jpg",
       "average": ".267",
       "homerun": 17,
@@ -842,7 +842,7 @@
     {
       "rank": 20,
       "name": "サンズ（神）",
-      "path": "/page3/batter20",
+      "path": "/batter20",
       "img": "../img/sands.jpg",
       "average": ".257",
       "homerun": 19,
@@ -886,7 +886,7 @@
     {
       "rank": 21,
       "name": "阿部　寿樹（中）",
-      "path": "/page3/batter21",
+      "path": "/batter21",
       "img": "../img/abe.jpg",
       "average": ".257",
       "homerun": 13,
@@ -931,7 +931,7 @@
     {
       "rank": 22,
       "name": "山田　哲人（ヤ）",
-      "path": "/page3/batter22",
+      "path": "/batter22",
       "img": "../img/yamada.jpg",
       "average": ".254",
       "homerun": 12,
@@ -975,7 +975,7 @@
     {
       "rank": 23,
       "name": "ソト（De）",
-      "path": "/page3/batter23",
+      "path": "/batter23",
       "img": "../img/soto.jpg",
       "average": ".252",
       "homerun": 25,
@@ -1019,7 +1019,7 @@
     {
       "rank": 24,
       "name": "田中　広輔（広）",
-      "path": "/page3/batter24",
+      "path": "/batter24",
       "img": "../img/tanaka.jpg",
       "average": ".251",
       "homerun": 8,
@@ -1063,7 +1063,7 @@
     {
       "rank": 25,
       "name": "京田　陽太（中）",
-      "path": "/page3/batter25",
+      "path": "/batter25",
       "img": "../img/kyoda.jpg",
       "average": ".247",
       "homerun": 5,
@@ -1107,7 +1107,7 @@
     {
       "rank": 26,
       "name": "坂口　智隆（ヤ）",
-      "path": "/page3/batter26",
+      "path": "/batter26",
       "img": "../img/sakaguchi.jpg",
       "average": ".246",
       "homerun": 9,

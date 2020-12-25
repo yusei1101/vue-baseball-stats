@@ -2,7 +2,7 @@
     {
       "rank": 1,
       "name": "大野　雄大（中）",
-      "path": "/page1/pitcher1",
+      "path": "/pitcher1",
       "img": "../img/oono.jpg",
       "prevent": "1.82",
       "victory": 11,
@@ -41,7 +41,7 @@
     {
       "rank": 2,
       "name": "森下　暢仁（広）",
-      "path": "/page1/pitcher2",
+      "path": "/pitcher2",
       "img": "../img/morisita.jpg",
       "prevent": "1.91",
       "victory": 10,
@@ -80,7 +80,7 @@
     {
       "rank": 3,
       "name": "菅野　智之（巨）",
-      "path": "/page1/pitcher3",
+      "path": "/pitcher3",
       "img": "../img/sugano.jpg",
       "prevent": "1.97",
       "victory": 14,
@@ -119,7 +119,7 @@
     {
       "rank": 4,
       "name": "西　勇輝（神）",
-      "path": "/page1/pitcher4",
+      "path": "/pitcher4",
       "img": "../img/nishi.jpg",
       "prevent": "2.26",
       "victory": 11,
@@ -158,7 +158,7 @@
     {
       "rank": 5,
       "name": "久里　亜蓮（広）",
-      "path": "/page1/pitcher5",
+      "path": "/pitcher5",
       "img": "../img/kuri.jpg",
       "prevent": "2.96",
       "victory": 8,
@@ -197,7 +197,7 @@
     {
       "rank": 6,
       "name": "青柳　晃洋（神）",
-      "path": "/page1/pitcher6",
+      "path": "/pitcher6",
       "img": "../img/aoyagi.jpg",
       "prevent": "3.36",
       "victory": 7,

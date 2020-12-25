@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div>
     <!-- スマホ用 -->
         <header class="sm-header">
           <div class="header-logo">
@@ -66,8 +66,8 @@
                     <font-awesome-icon icon="chevron-down" v-if="!isOpenVocabulary"></font-awesome-icon>
                     <transition name="toggle">
                         <div v-if="isOpenVocabulary">
-                            <router-link to="./PitcherVocabulary">投手</router-link>
-                            <router-link to="./BatterVocabulary">野手</router-link>
+                            <router-link to="/PitcherVocabulary">投手</router-link>
+                            <router-link to="/BatterVocabulary">野手</router-link>
                         </div>
                     </transition>
                 </li>

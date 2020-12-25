@@ -2,7 +2,7 @@
     {
       "rank": 1,
       "name": "千賀　滉大（ソ）",
-      "path": "/page2/pitcher7",
+      "path": "/pitcher7",
       "img": "../img/senga.jpg",
       "prevent": "2.16",
       "victory": 11,
@@ -41,7 +41,7 @@
     {
       "rank": 2,
       "name": "山本　由伸（オ）",
-      "path": "/page2/pitcher8",
+      "path": "/pitcher8",
       "img": "../img/yamamoto.jpg",
       "prevent": "2.20",
       "victory": 8,
@@ -80,7 +80,7 @@
     {
       "rank": 3,
       "name": "有原　航平（日）",
-      "path": "/page2/pitcher9",
+      "path": "/pitcher9",
       "img": "../img/arihara.jpg",
       "prevent": "3.46",
       "victory": 8,
@@ -119,7 +119,7 @@
     {
       "rank": 4,
       "name": "涌井　秀章（楽）",
-      "path": "/page2/pitcher10",
+      "path": "/pitcher10",
       "img": "../img/wakui.jpg",
       "prevent": "3.60",
       "victory": 11,
@@ -158,7 +158,7 @@
     {
       "rank": 5,
       "name": "髙橋　光成（西）",
-      "path": "/page2/pitcher11",
+      "path": "/pitcher11",
       "img": "../img/takahashikouna.jpg",
       "prevent": "3.74",
       "victory": 8,
@@ -197,7 +197,7 @@
     {
       "rank": 6,
       "name": "美馬　学（ロ）",
-      "path": "/page2/pitcher12",
+      "path": "/pitcher12",
       "img": "../img/mima.jpg",
       "prevent": "3.95",
       "victory": 10,
@@ -236,7 +236,7 @@
     {
       "rank": 7,
       "name": "田嶋　大樹（オ）",
-      "path": "/page2/pitcher13",
+      "path": "/pitcher13",
       "img": "../img/tajima.jpg",
       "prevent": "4.05",
       "victory": 4,
@@ -275,7 +275,7 @@
     {
       "rank": 8,
       "name": "石川　歩（ロ）",
-      "path": "/page2/pitcher14",
+      "path": "/pitcher14",
       "img": "../img/ishikawa.jpg",
       "prevent": "4.25",
       "victory": 7,

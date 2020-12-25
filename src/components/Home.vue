@@ -1,5 +1,5 @@
 <template>
-    <div id="home">
+    <div>
         <h2>個人成績</h2>
         <div class="league-wrap">
             <ul class="central-wrap">

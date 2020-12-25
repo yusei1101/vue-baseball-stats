@@ -1,5 +1,5 @@
 <template>
-    <div class="page4">
+    <div>
         <table border="1" cellpadding="0" class="table-page">
             <tr>
                 <th>順位</th>
@@ -23,7 +23,6 @@
 
 <script>
 export default {
-  el: '#page4',
   data () {
     return {
       posts: []
