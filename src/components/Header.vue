@@ -3,7 +3,7 @@
     <!-- スマホ用 -->
         <header class="sm-header">
           <div class="header-logo">
-            <h1><router-link to="/">プロ野球個人成績</router-link></h1>
+            <h1><a href="./">プロ野球個人成績</a></h1>
           </div>
             <!-- ハンバーガーメニュー -->
             <div class="sm-header-menu">
@@ -20,16 +20,16 @@
             <transition name="sm-navi">
             <div class="sm-navi" v-show="navi">
                 <ul>
-                    <li><router-link to="/">ホーム</router-link></li>
+                    <li><a href="./">ホーム</a></li>
                     <li>セ・リーグ</li>
-                    <li><router-link to="/page1">投手</router-link></li>
-                    <li><router-link to="/page3">野手</router-link></li>
+                    <li><a href="./page1">投手</a></li>
+                    <li><a href="./page3">野手</a></li>
                     <li>パ・リーグ</li>
-                    <li><router-link to="/page2">投手</router-link></li>
-                    <li><router-link to="/page4">野手</router-link></li>
+                    <li><a href="./page2">投手</a></li>
+                    <li><a href="./page4">野手</a></li>
                     <li>用語解説</li>
-                    <li><router-link to="/PitcherVocabulary">投手</router-link></li>
-                    <li><router-link to="/BatterVocabulary">野手</router-link></li>
+                    <li><a href="./PitcherVocabulary">投手</a></li>
+                    <li><a href="./BatterVocabulary">野手</a></li>
                 </ul>
             </div>
             </transition>
