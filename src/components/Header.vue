@@ -3,7 +3,7 @@
     <!-- スマホ用 -->
         <header class="sm-header">
           <div class="header-logo">
-            <h1><a href="./">プロ野球個人成績</a></h1>
+            <h1><a href="./">プロ野球個人成績2020</a></h1>
           </div>
             <!-- ハンバーガーメニュー -->
             <div class="sm-header-menu">
@@ -36,18 +36,18 @@
     <!-- PCタブレット用 -->
         <header class="header">
           <div class="header-logo">
-                <h1><router-link to="/">プロ野球個人成績</router-link></h1>
+                <h1><a href="./">プロ野球個人成績2020</a></h1>
           </div>
           <div class="header-nav">
             <ul>
-                <li><router-link to="/" class="li-home">ホーム</router-link></li>
+                <li><a href="./" class="li-home">ホーム</a></li>
                 <li class="toggle" style="cursor: pointer;" @click="toggleCentral">セ・リーグ
                     <font-awesome-icon icon="chevron-up" v-if="isOpenCentral"></font-awesome-icon>
                     <font-awesome-icon icon="chevron-down" v-if="!isOpenCentral"></font-awesome-icon>
                     <transition name="toggle">
                         <div v-if="isOpenCentral">
-                            <router-link to="/page1">投手</router-link>
-                            <router-link to="/page3">野手</router-link>
+                            <a href="./page1">投手</a>
+                            <a href="./page3">野手</a>
                         </div>
                     </transition>
                 </li>
@@ -56,8 +56,8 @@
                     <font-awesome-icon icon="chevron-down" v-if="!isOpenPacific"></font-awesome-icon>
                     <transition name="toggle">
                         <div v-if="isOpenPacific">
-                            <router-link to="/page2">投手</router-link>
-                            <router-link to="/page4">野手</router-link>
+                            <a href="./page2">投手</a>
+                            <a href="./page4">野手</a>
                         </div>
                     </transition>
                 </li>
@@ -66,8 +66,8 @@
                     <font-awesome-icon icon="chevron-down" v-if="!isOpenVocabulary"></font-awesome-icon>
                     <transition name="toggle">
                         <div v-if="isOpenVocabulary">
-                            <router-link to="/PitcherVocabulary">投手</router-link>
-                            <router-link to="/BatterVocabulary">野手</router-link>
+                            <a href="./PitcherVocabulary">投手</a>
+                            <a href="./BatterVocabulary">野手</a>
                         </div>
                     </transition>
                 </li>
@@ -105,6 +105,3 @@ export default {
   }
 }
 </script>
-
-<style lang="scss">
-</style>

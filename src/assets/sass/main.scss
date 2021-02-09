@@ -12,13 +12,15 @@
             font-size: $fontSize-title;
             color: $color-white;
             line-height: 60px;
+            text-decoration: none;
         }
     }
 }
 
 .li-home{
     font-size: $fontSize-subtitle;
-    color: $color-white
+    color: $color-white;
+    text-decoration: none;
 }
 .header{
     @include mq(md){
@@ -230,6 +232,10 @@
 }
 
 //Page1,2,3,4
+.content{
+    padding: 50px 0 0 17%;  
+    font-size: 1.4rem; 
+}
 .table-page{
     color: $color-text;
     width: 95%;
@@ -260,7 +266,6 @@
             a{
                 font-size: 1.3rem;
                 color: $color-text;
-                border-bottom: 1px solid #222;
                 &:hover{
                     opacity: $opacity;
                 }

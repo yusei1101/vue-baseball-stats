@@ -25,7 +25,6 @@ header, footer, nav, section, article, aside, figure, figcaption {
 }
 
 a {
-  text-decoration: none;
   cursor: pointer;
 }
 
@@ -61,11 +60,13 @@ h1, h2 {
   font-size: 3rem;
   color: #ffffff;
   line-height: 60px;
+  text-decoration: none;
 }
 
 .li-home {
   font-size: 2rem;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .header {
@@ -310,6 +311,11 @@ h1, h2 {
   color: blue;
 }
 
+.content {
+  padding: 50px 0 0 17%;
+  font-size: 1.4rem;
+}
+
 .table-page {
   color: #222222;
   width: 95%;
@@ -352,7 +358,6 @@ h1, h2 {
 .table-page tr td a {
   font-size: 1.3rem;
   color: #222222;
-  border-bottom: 1px solid #222;
 }
 
 .table-page tr td a:hover {

@@ -1,5 +1,6 @@
 <template>
     <div>
+        <p class="content">※規定打席以上（チーム試合数×3.1）</p>
         <table border="1" cellpadding="0" class="table-page">
             <tr>
                 <th>順位</th>
@@ -11,7 +12,7 @@
             </tr>
             <tr v-for="post in posts" :key="post.rank">
                 <td>{{post.rank}}</td>
-                <td><router-link :to="post.path">{{post.name}}</router-link></td>
+                <td><a :href="post.path">{{post.name}}</a></td>
                 <td>{{post.average}}</td>
                 <td>{{post.homerun}}</td>
                 <td>{{post.rbi}}</td>
@@ -37,6 +38,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.content{
+    padding: 50px 0 0 17%;
+    font-size: 1.4rem;
+}
 table{
     padding-top: 20px;
     width: 100%;
