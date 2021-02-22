@@ -43,7 +43,7 @@ ol, ul {
 }
 
 h1, h2 {
-  font-size: 3rem;
+  font-size: 2.8rem;
 }
 
 .header-logo h1 {
@@ -57,7 +57,7 @@ h1, h2 {
 }
 
 .header-logo h1 a {
-  font-size: 3rem;
+  font-size: 2.8rem;
   color: #ffffff;
   line-height: 60px;
   text-decoration: none;
@@ -394,41 +394,41 @@ h1, h2 {
   }
 }
 
-.table-detail {
-  width: 98%;
-  margin: 0 auto;
-  border-collapse: collapse;
+.scroll-wrap {
+  padding-bottom: 30px;
 }
 
-.table-detail tr th {
-  border: solid 1px #222222;
-  padding: 6px;
-  background: #edf1f3;
-}
-
-.table-detail tr th span {
-  writing-mode: tb;
-  writing-mode: vertical-lr;
-  letter-spacing: .2em;
-}
-
-.table-detail tr td {
-  text-align: center;
-  border: solid 1px #222;
-  padding: 5px;
-}
-
-.scroll {
+.scroll-wrap .scroll {
   overflow: auto;
   white-space: nowrap;
 }
 
-.scroll::-webkit-scrollbar {
+.scroll-wrap .scroll::-webkit-scrollbar {
   height: 10px;
 }
 
-.scroll::-webkit-scrollbar-thumb {
+.scroll-wrap .scroll::-webkit-scrollbar-thumb {
   background: #BCBCBC;
+}
+
+.scroll-wrap .scroll .table-detail {
+  width: 70%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.scroll-wrap .scroll .table-detail tr th {
+  border: solid 1px #222222;
+  padding: 5px;
+  background: #edf1f3;
+  font-size: 2rem;
+}
+
+.scroll-wrap .scroll .table-detail tr td {
+  font-size: 2rem;
+  text-align: center;
+  border: solid 1px #222;
+  padding: 10px;
 }
 
 .vocabulary {
