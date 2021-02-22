@@ -424,6 +424,10 @@ h1, h2 {
   font-size: 2rem;
 }
 
+.scroll-wrap .scroll .table-detail tr th button {
+  padding: 0;
+}
+
 .scroll-wrap .scroll .table-detail tr td {
   font-size: 2rem;
   text-align: center;
